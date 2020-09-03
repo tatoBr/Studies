@@ -1,0 +1,14 @@
+.container{
+    display: block;
+    padding: 4pt;
+    margin: 4pt;
+    border: 1pt solid black;
+    background-color: rgb(22, 97, 38);
+}
+.alert{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: azure;
+}
