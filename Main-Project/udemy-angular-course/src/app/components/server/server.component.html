@@ -1,0 +1,12 @@
+<div>
+    <p    
+    [ngClass]="{
+        onLineText : isRunning,
+        offLineText: !isRunning
+    }" style="display: inline-block;">
+        Server is {{ name }} {{ isRunning ? "OnLine" : "OffLine"}}. It's id number is {{ id }}.
+    </p>
+    <button (click)="isRunning = !isRunning" class="btn btn-primary" style="margin: 4pt;">
+        Turn {{ isRunning ? "Off" : "On" }}.
+    </button>
+</div>
